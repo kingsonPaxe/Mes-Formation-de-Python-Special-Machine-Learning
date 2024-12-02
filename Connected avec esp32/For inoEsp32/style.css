@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    overflow:none;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(50deg, rgb(9, 15, 10), rgb(0, 0, 0), rgb(2, 24, 15));   
+}
+/* .btnOff{
+    position: absolute;
+    top: 10px;
+} */
+
+#imgbtnOff{
+    height: 450px;
+    width: 500px;
+}
+
+#imgbtnOn{
+    height: 350px;
+    width: 500px;
+    position: relative;
+    top: 55px;
+}
+.leds{
+    display: flex;
+}
+header{
+    background-color: rgb(19, 34, 19);
+    height: 95px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+button{
+    height: 1.5cm;
+    font-size: 14pt;
+    width: 8cm;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    border: 1px solid rgb(2, 68, 2);
+    color: white;
+    background-color: transparent;
+}
+button:active{
+    background-color: rgb(2, 68, 2);
+}
